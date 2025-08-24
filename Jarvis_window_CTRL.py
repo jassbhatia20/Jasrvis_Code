@@ -30,17 +30,46 @@ logger = logging.getLogger(__name__)
 
 # App command map
 APP_MAPPINGS = {
-    "notepad": "notepad",
-    "calculator": "calc",
-    "chrome": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
-    "vlc": "C:\\Program Files\\VideoLAN\\VLC\\vlc.exe",
-    "command prompt": "cmd",
-    "control panel": "control",
+    "android studio": "C:\\Program Files\\Android\\Android Studio\\bin\\studio.exe",
+    "cisco packet tracer 8.2.2 64bit": "C:\\Program Files\\Cisco Packet Tracer 8.2.2\\",
+    "bang & olufsen audio": "C:\\Program Files\\CONEXANT\\CNXT_AUDIO_HDA\\BANGDefaultIcon.ico",
+    "fairlight audio accelerator utility": "C:\\Program Files\\Blackmagic Design\\DaVinci Resolve\\audio\\Fairlight Audio Accelerator\\",
+    "git": "C:\\Program Files\\Git\\mingw64\\share\\git\\git-for-windows.ico",
+    "microsoft 365 - en-gb": "C:\\Program Files\\Common Files\\Microsoft Shared\\ClickToRun\\OfficeClickToRun.exe",
+    "pycharm 2025.2.0.1": "C:\\Program Files\\JetBrains\\PyCharm 2025.2.0.1\\bin\\pycharm64.exe",
+    "desktop mate": "D:\\DESKTOP character\\steam\\games\\456203ab4b5ea9fc480910679004f60215446a2a.ico",
+    "synaptics pointing device driver": "C:\\Program Files\\Synaptics\\SynTP\\InstNT.exe",
+    "powertoys (preview)": "C:\\Users\\bhati\\AppData\\Local\\PowerToys\\",
+    "blackmagic raw": "C:\\Program Files\\Blackmagic Design\\Blackmagic RAW\\",
+    "fairlight audio": "C:\\Program Files\\Blackmagic Design\\DaVinci Resolve\\audio\\",
+    "intel graphics command center": "C:\\Program Files\\Intel\\GFXCmd\\gfx.exe",
+    "microsoft edge": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "obs studio": "C:\\Program Files\\obs-studio\\",
+    "visual studio code": "C:\\Users\\bhati\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe",
+    "steam": "C:\\Program Files (x86)\\Steam\\steam.exe",
+    "vlc media player": "C:\\Program Files\\VideoLAN\\VLC\\vlc.exe",
+    "notepad++": "C:\\Program Files\\Notepad++\\notepad++.exe",
+    "7-zip": "C:\\Program Files\\7-Zip\\7zFM.exe",
+    "winrar": "C:\\Program Files\\WinRAR\\WinRAR.exe",
+    "python 3.11": "C:\\Users\\bhati\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+    "java": "C:\\Program Files\\Java\\jdk-21\\bin\\java.exe",
+    "onenote": "C:\\Program Files\\Microsoft Office\\root\\Office16\\ONENOTE.EXE",
+    "word": "C:\\Program Files\\Microsoft Office\\root\\Office16\\WINWORD.EXE",
+    "excel": "C:\\Program Files\\Microsoft Office\\root\\Office16\\EXCEL.EXE",
+    "powerpoint": "C:\\Program Files\\Microsoft Office\\root\\Office16\\POWERPNT.EXE",
+    "outlook": "C:\\Program Files\\Microsoft Office\\root\\Office16\\OUTLOOK.EXE",
+    "teams": "C:\\Users\\bhati\\AppData\\Local\\Microsoft\\Teams\\Update.exe",
+    "microsoft store": "C:\\Program Files\\WindowsApps\\",
+    "calculator": "C:\\Windows\\System32\\calc.exe",
+    "notepad": "C:\\Windows\\System32\\notepad.exe",
+    "paint": "C:\\Windows\\System32\\mspaint.exe",
+    "command prompt": "C:\\Windows\\System32\\cmd.exe",
+    "control panel": "C:\\Windows\\System32\\control.exe",
     "settings": "start ms-settings:",
-    "paint": "mspaint",
-    "vs code": "C:\\Users\\gaura\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe",
-    "postman": "C:\\Users\\gaura\\AppData\\Local\\Postman\\Postman.exe"
+    "powershell": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+    "task manager": "C:\\Windows\\System32\\Taskmgr.exe"
 }
+
 
 # -------------------------
 # Global focus utility

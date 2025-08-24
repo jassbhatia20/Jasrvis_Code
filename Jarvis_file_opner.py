@@ -86,17 +86,17 @@ async def handle_command(command, index):
 async def Play_file(name: str) -> str:
 
     """
-    Searches for and opens a file by name from the D:/ drive.
+    Searches for and opens a file by name from the E:/ drive.
 
     Use this tool when the user wants to open a file like a video, PDF, document, image, etc.
     Example prompts:
-    - "D drive से my resume खोलो"
-    - "Open D:/project report"
+    - "E drive से my resume खोलो"
+    - "Open E:/project report"
     - "MP4 file play करो"
     """
 
 
-    folders_to_index = ["D:/"]
+    folders_to_index = ["E:/"]
     index = await index_files(folders_to_index)
     command = name.strip()
     return await handle_command(command, index)
